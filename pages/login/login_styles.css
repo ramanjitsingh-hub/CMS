@@ -1,0 +1,52 @@
+/* Update your CSS file */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    color: #06a77d;
+    margin: 15px 0;
+  }
+  
+  .title {
+    position: absolute;
+    top: -30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #06a77d;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: #06a77d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #04855f;
+  }
+  

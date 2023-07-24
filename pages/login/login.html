@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="login_styles.css">
+  <title>Login</title>
+  <!-- Add Google Fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h2>Login</h2>
+    </div>
+    <div class="row">
+      <form action="../../php/login_process.php" method="post">
+        <h3>Username</h3>
+        <input type="text" name="username" required />
+        <h3>Password</h3>
+        <input type="password" name="password" required />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </div>
+</body>
+</html>
